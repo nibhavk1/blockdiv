@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+        <th>Sr No.</th>
+        <th>Name</th>
+        <th colspan="2">Marks</th>
+        <th>Total Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1.</td>
+            <td rowspan="2">Rehman</td>
+            <td> Sub1</td>
+            <td> 95 </td>
+            <td rowspan="2">195</td>
+        </tr>
+        <tr>
+            <td>Sub2</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2.</td>
+            <td rowspan="2">Asif</td>
+            <td>Sub1</td>
+            <td>98</td>
+            <td rowspan="2">198</td>
+        </tr>
+        <tr>
+            <td>Sub2</td>
+            <td>100</td>
+        </tr>
+    </table>
+    &lt; section &gt; Tag is used to create section <br>
+    &copy; Copyright
+    <br>
+    <br>
+
+<fieldset>
+    <legend>Personalia:</legend>
+    <form method="get" action="list.html">
+        <label for="name">Enter your name</label>
+        <input type="text" id="name" name="name" placeholder="Type here"  required><br>
+        <br>
+        <label for="describe">Describe yourself</label>
+        <textarea name="describe" id="describe" placeholder="Thoughts"> </textarea>
+        <br>
+        <br>
+
+        <!-- <input type="text" id="describe" name="describe" placeholder="Thoughts on yourself" required> -->
+        <label for="text" id="gender" name="gender">Select your gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <br>
+        <br>
+
+        <label for="date" id="date" name="date">Enter your D.O.B</label><br>
+        <input type="date" name="date" min="2004-12-01" max="2025-12-01">
+        <br>
+        <br>
+
+        <label id="time" name="time">Time</label>
+        <input type="time" name="time">
+        <br>
+        <br>
+
+        <label id="file" name="file">Upload file</label>
+        <input type="file" name="file">
+        <br>
+        <br>
+        
+        <label id="weight" name="weight">Weight</label>
+        <input type="number" name="weight">
+        <br>
+        <br>
+
+        <label id="range" name="range"></label>
+        <input type="range" name="range">
+        <br>
+        <br>
+        
+        <label id="menu" name="menu">Select menu
+        <select>
+            <options>Home</options>
+            <options>About</options>
+        </select>
+    </label>
+        <br>
+        <br>
+</fieldset>
+    </form>
+</body>
+</html>

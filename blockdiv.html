@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display:grid;
+            grid-template-columns: 5cm 8cm;
+            grid-template-rows: 4cm 5cm;
+            gap:10px;
+        }
+        .d1{
+            grid-row: 1/4;
+            align-content: left;
+            text-align: left;
+            border: 2px dotted orange;
+        }
+        .d2{
+            grid-column: 2/4;
+            align-content: left;
+            text-align: left;
+            border: 2px dotted orange;
+        }
+        .d3{
+            grid-column: 2/4;
+            align-content: left;
+            text-align: left;
+            border: 2px dotted orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">Reference
+            <ol type="i">
+                <li>Span tag</li>
+            </ol>
+        </div>
+        <div class="d2">Span tag</div>
+        <div class="d3">Span tag</div>
+    </div>
+</body>
+</html>
